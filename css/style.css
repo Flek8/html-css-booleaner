@@ -1,10 +1,75 @@
 header{
-    background-image: url("img/pattern.png");
-    background-color: rgba(0, 153, 255, 0.701);
-    height: 100px;
+    background-image: url("../img/pattern.png");
+    background-size: 25%;
+    background-color: rgba(53, 164, 238, 0.637);
 }
 #logo{
     margin-top: 50px;
     margin-left: 5px;
     width: 10%;
+}
+h1{
+    margin-bottom: 2px;
+}
+#foot{
+    margin-top: 2px;
+    font-size: small;
+    color: gray;
+}
+#foot span{
+    color: rgb(12, 227, 235);
+}
+section img{
+    height: 200px;
+    width: 25%;
+}
+#image-description{
+    font-size: 0.25em;
+    margin-top: 2px;
+}
+#section2 p{
+    font-weight: 500;
+
+}
+.section2 span{
+    background-color: yellow;
+}
+ul{
+    padding-left: 15px;
+}
+table{
+    border-spacing: 0px;
+    
+}
+.thead{
+    background-color: lightskyblue;
+}
+.midcell{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.tblue{
+    background-color: lightblue;
+}
+#correlati{
+    background-color: none;
+    color: gray;
+}
+.related-image1{
+    font-size: 1.5em;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    height: 150px;
+    width: 20%;
+    background-image: url("../img/monitor.jpg");
+}
+.related-image2{
+    font-size: 1.5em;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    height: 150px;
+    width: 20%;
+    background-image: url("../img/graph.jpg");
 }
